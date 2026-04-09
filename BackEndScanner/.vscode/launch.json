@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Launch",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/BackEndScanner.API/bin/Debug/net9.0/BackEndScanner.API.dll",
+                "args":[],
+                "cwd": "${workspaceFolder}/BackEndScanner.API",
+                "stopAtEntry": false,
+                "serverReadyAction":{
+                    "action": "openExternally",
+                    "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+                }   
+        }
+    ]
+}

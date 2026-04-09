@@ -1,0 +1,6 @@
+@BackEndScanner.API_HostAddress = http://localhost:5067
+
+GET {{BackEndScanner.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
